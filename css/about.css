@@ -1,0 +1,74 @@
+.contain {
+	height: 400px;
+    width: 80%;
+    float:left;
+    margin-left:10%;
+    margin-top:25px;
+    background-color: white;
+}
+.contain .left-video {
+	height: 400px;
+	width: 48%;
+	float:left;
+}
+.contain .left-video video {
+	height: 100%;
+	width: 100%;
+	box-shadow: 10px 10px 100px grey;
+}
+.contain .right-info {
+    height: 400px;
+	width: 48%;
+	float:right;
+
+}
+.contain .right-info h1 {
+	font-family: 'Archivo Narrow',sans-serif;
+	font-size: 42px;
+	margin-left:5%;
+	margin-top:10%;
+}
+.contain .right-info h2 {
+	font-family: 'Archivo Narrow',sans-serif;
+	color:grey;
+	font-size: 22px;
+	margin-left:5%;
+	margin-top:-1%;
+}
+.main-field {
+	height: 1300px;
+	width: 80%;
+	float:left;
+	margin-left:10%;
+	margin-top:55px;
+}
+.main-field ul {
+	height: 1150px;
+	width: 90%;
+	list-style: none;
+}
+.main-field ul li {
+	height: 300px;
+	width: 100%;
+	margin-top:20px;
+	box-shadow: 10px 10px 100px grey;
+}
+.main-field ul li .left-img {
+	height: 300px;
+	width: 300px;
+	float:left;
+}
+.main-field ul li .right-info {
+	height: 300px;
+	width: 700px;
+	margin-left:20px;
+	font-family: 'Archivo Narrow',sans-serif;
+	font-size: 18px;
+	float:right;
+}
+.main-field ul li .left-img img {
+	height: 80%;
+	width: 80%;
+	border-radius: 150px;
+    margin-left:10%;
+    margin-top:10%;

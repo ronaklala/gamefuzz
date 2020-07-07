@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/CSS" href = "css/index.css">
+<link rel="icon" href="img/final.png" type="image/png" sizes="16x16">
+<script src="https://use.fontawesome.com/8cca916313.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Krona+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href = "css/contact.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/responsivecontact.css" rev="responsive">
+</head>
+<style>
+	
+
+	</style>
+<body>
+	<div class="header">
+<div class="header-menu">
+	<div class="logo-left">
+		<img src="img/final.png">
+	</div>
+	<div class="logo-text">
+		<h1>Gamefuzz</h1>
+	</div>
+	<div class="menu-center">
+		<ul>
+			<a href = "index.html"><li>
+				Home
+			</li></a>
+			<a href = "activity.html"><li>
+				Activity
+			</li></a>
+			<a href = "store.html"><li>
+				Store
+			</li></a>
+			<a href = "about.html"><li>
+				About
+			</li></a>
+			<a href = "#"><li class="active">
+				Contact
+			</li></a>
+		</ul>
+	</div>
+	<div class="menu-right">
+		<img src="img/Hamburger_icon.svg.png" id="toggle">
+		<script type="text/javascript">
+			var toggle  = document.getElementById("toggle");
+var content = document.getElementById("hidden");
+
+$(document).ready(function(){
+  $("#toggle").click(function(){
+    $("#hidden").fadeToggle("slow");
+});
+});
+		</script>
+		<div class="menu-hidden" id="hidden">
+		<ul>
+			<a href = "index.html"><li>
+				Home
+			</li></a>
+			<a href = "activity.html"><li>
+				Activity
+			</li></a>
+			<a href = "store.html"><li>
+				Store
+			</li></a>
+			<a href = "about.html"><li>
+				About
+			</li></a>
+			<a href = "contact.html"><li class="active">
+				Contact
+			</li></a>
+		</ul>
+	</div>
+	</div>
+</div>
+	<div class="contact-form">
+		<h1><center>Contact us with just a click</center></h1>
+		<form action="#" id="form">
+			<label>Name :- </label><input type="name" placeholder="Enter your Name" id = "name"required><br>
+			<label>Email id :- </label><input id = "email" type="email" placeholder="Enter your Email Address"required><br>
+			<label>Phone Number :- </label><input id = "number" type="number" placeholder="Enter your Contact Number"required><br>
+			<label>Message/Feedback/Report :- </label><br>
+			<textarea required placeholder="Enter Message/Feedback/Report" id = "fmr"></textarea><br><br>
+			<input type="submit" onclick="validate()">
+			<script>
+				function validate() {
+					var x = document.forms["form"]["name"].value;
+					var y = document.forms["form"]["email"].value;
+					var z = document.forms["form"]["number"].value;
+					var a = document.forms["form"]["fmr"].value;
+					if(x == ""  && a == "")  {
+						alert("Kindly Fill All The Details");
+					}
+					else if(y == "") {
+                          alert("Kindly Fill All The Details");
+					}
+					else if(z == "") {
+						alert("Kindly Fill All The Details");
+					}
+					else if(a == "") {
+						alert("Kindly Fill All The Details");
+					}
+					else {
+						alert("Thanks For Contacting us. We will Reply you Soon");
+					}
+				}
+			</script>
+		</form>
+	</div>
+</div>
+<div class="footer">
+	    <div class="left-div" id = "jsdiv">
+	    	 <script>
+          	var d = new Date();
+          	document.getElementById("jsdiv").innerHTML = "Copyrights Reserved "+d.getFullYear()+" By Ronak lala";
+          </script>		
+	    </div>
+	    <div class="ul-ico">
+	    	<ul>
+	    		<li>
+	    			<i class="fa fa-facebook-official" aria-hidden="true"></i>
+	    		</li>
+	    		<li>
+	    			<i class="fa fa-whatsapp" aria-hidden="true"></i>
+	    		</li>
+	    		<li>
+	    			<i class="fa fa-instagram" aria-hidden="true"></i>
+	    		</li>
+	    		<li>
+	    			<i class="fa fa-steam-square" aria-hidden="true"></i>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <img src="img/final.png">
+	</div>
+</body>
+</html>

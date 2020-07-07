@@ -1,0 +1,85 @@
+.header {
+	height: 800px;
+}
+.contact-form {
+	height: 650px;
+	width: 80%;
+	margin-left: 10%;
+		float:left;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+.header .header-menu .menu-right {
+		display: none;
+	}
+.contact-form h1 {
+	font-size: 42px;
+}
+.contact-form form {
+	height: 500px;
+	width: 650px;
+	border-radius: 15px;
+	margin-left:20%;
+	background-color: white;
+	box-shadow: 10px 10px 100px grey;
+}
+.contact-form label {
+	font-size: 22px;
+	line-height: 65px;
+	margin-left:30px;
+}
+.contact-form input[type = name] {
+	height: 35px;
+	width: 380px;
+	border-radius: 5px;
+	padding-left:5px;
+	border:none;
+	border:1px solid grey;
+	font-family: 'Archivo Narrow',sans-serif;
+	margin-left:100px;
+}
+.contact-form input[type = email] {
+	height: 35px;
+	width: 380px;
+	border-radius: 5px;
+	padding-left:5px;
+	border:none;
+	border:1px solid grey;
+	font-family: 'Archivo Narrow',sans-serif;
+	margin-left:81px;
+}
+.contact-form input[type = number] {
+	height: 35px;
+	width: 380px;
+	border-radius: 5px;
+	padding-left:5px;
+	border:none;
+	font-family: 'Archivo Narrow',sans-serif;
+	border:1px solid grey;
+	margin-left:27px;
+}
+.contact-form textarea {
+	height: 130px;
+	width: 550px;
+	border-radius: 5px;
+	padding-left:5px;
+	border:none;
+	border:1px solid grey;
+	margin-left:30px;
+	font-family: 'Archivo Narrow',sans-serif;
+}
+.contact-form input[type = submit] {
+	height: 35px;
+	width: 550px;
+	border-radius: 5px;
+	padding-left:5px;
+	border:none;
+	border:1px solid grey;
+	margin-left:30px;
+	font-family: 'Archivo Narrow',sans-serif;
+	color: white;
+	border:none;
+	border:1px solid grey;
+	font-size: 22px;
+	background-color:#0E97BC ;
+}
+
